@@ -22,6 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Added to hide large media files from git
 *.psd
 *.mp4
 *.gif

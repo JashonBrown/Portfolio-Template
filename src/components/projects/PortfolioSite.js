@@ -7,7 +7,7 @@ function PortfolioSite() {
     return (
         <div className="project">
             <Row>
-                <Col md={8}>
+                <Col md={9}>
                     <ProjectTextCard>
                         <h2>Portfolio Site</h2>
                         <h5>Status: Operating (2021 - Current)</h5>
@@ -20,13 +20,7 @@ function PortfolioSite() {
                             I also thought I'd use creating this site as a way to learn ReactJS.
                         </p>
                     </ProjectTextCard>
-                </Col>
-                <Col>
-                    <ProjectImageCard src="/images/portfolio-site/screenshot-1.png" />
-                </Col>
-            </Row>
-            <Row>
-                <Col md={3}>
+                <Col md={4}>
                     <ProjectTextCard>
                         <h2>Technologies</h2>
                         <ul>
@@ -41,6 +35,15 @@ function PortfolioSite() {
                             <li>Route 53 (AWS)</li>
                         </ul>
                     </ProjectTextCard>
+                    </Col>
+                </Col>
+                <Col>
+                    <ProjectTextCard>
+                        <a target="_blank" href="https://github.com/JashonBrown/PortfolioSite" rel="noreferrer">
+                            <h2>View Repo!</h2>
+                        </a>
+                    </ProjectTextCard>
+                    <ProjectImageCard src="/images/portfolio-site/screenshot-1.png" />
                 </Col>
             </Row>
         </div>
