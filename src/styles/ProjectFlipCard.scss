@@ -1,0 +1,80 @@
+:root { --time: 0.707s; } // idk what this does but it's required to make this work lol
+
+.project-flip-card {
+    perspective: 40rem;
+    display: flex;
+    transition: z-index, transform calc(var(--time) / 4);
+    transition-delay: var(--time), 0s;
+    text-decoration: none;
+    color: inherit;
+    z-index: 0;
+  
+    img {
+      height:100%;
+    }
+
+    &.gradient .card-img-overlay {
+      background: linear-gradient(180deg, #00000075, transparent 80%);
+    }
+    
+    &:hover {
+        transition-delay: 0s;
+        z-index: 1;
+    }
+
+    &:active {
+        transform: scale(0.975);
+    }
+
+    h3, h5 {
+      color: white;
+    }
+
+    .card-img-overlay.centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+.project-card-body {
+  border-radius: 0.25rem;
+  flex: 1;
+  display: flex;
+  transform-style: preserve-3d;
+  transition: var(--time) transform;
+
+  .project-flip-card:hover &, .project-flip-card:focus & {
+    transform: rotateX(-180deg);
+  }
+
+  .project-card-front {
+    font-size: 1.5rem;
+    background-color: #69625d;
+
+    svg {
+      color: white;
+      // margin-top: 80px;
+    }
+  }
+  
+  .project-card-back {
+    transform: rotateX(-180deg) translate(-100%, 0);
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #16181b;
+  }
+  
+  .project-card-front, .project-card-back {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    backface-visibility: hidden;
+    min-width: 100%;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+  }
+}

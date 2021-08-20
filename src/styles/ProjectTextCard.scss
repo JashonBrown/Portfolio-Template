@@ -1,0 +1,30 @@
+.project-text-card {
+    background-color: #16181b;
+    border: solid 1px rgb(56, 53, 49);
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+    
+    h2, h4, h5 {
+        text-align: center;
+    }
+
+    p, h2, h3, h4, h5, li {
+        color: white;
+    }
+
+    &.centered {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        
+        h2:hover {
+            color: #deb887;
+        }
+    }
+}

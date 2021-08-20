@@ -1,0 +1,27 @@
+.projects {
+    margin-left: 40px;
+    margin-right: 40px;
+
+    .project-cards {
+        display: grid;
+        grid-gap: 1.5rem;
+        grid-auto-rows: 1fr;
+        padding: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        
+        .row {
+            --bs-gutter-y: 1.5rem;
+        }
+    }
+    
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid #deb887;
+    }
+
+    h2 {
+        color: white;
+    }
+}
