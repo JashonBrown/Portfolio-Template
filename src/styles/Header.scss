@@ -8,6 +8,10 @@
         text-align: center;
     }
 
+    .row.top-row {
+        flex-wrap: nowrap;
+    }
+
     .nav-link {
         color: ivory;
         text-decoration: none;

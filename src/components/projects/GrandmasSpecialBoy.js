@@ -104,10 +104,6 @@ function GrandmasSpecialBoy() {
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
 
-                    <ProjectTextCard>
-                        <a target="_blank" href="https://itsnotagoodtime.itch.io/climb-princess-climb" rel="noreferrer"><h2>Play here!</h2></a>
-                    </ProjectTextCard>
-
                     <ProjectImageCard src="/images/grandmas-special-boy/card-grandmas-special-boy.png" />
 
                     <ProjectTextCard>

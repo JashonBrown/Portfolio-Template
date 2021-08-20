@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className="header">
             <Navbar expand="md">
-                <Row>
+                <Row className="top-row">
                     <Navbar.Brand>
                         <div className="title">
                             <Nav.Link exact as={NavLink} to="/">Jashon Brown</Nav.Link>

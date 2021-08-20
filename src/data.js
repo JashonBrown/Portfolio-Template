@@ -14,11 +14,11 @@ export const projects =
     },
     // -------- 2016 --------
     {
-        key:"binding-of-isaac-2",
-        title: "Binding of Isaac 2",
+        key:"dungeon-crawler",
+        title: "Dungeon Crawler",
         description:"A 'Binding of Isaac' inspired game developed for a university assignment",
-        image: "/images/binding-of-isaac-2/card-binding-of-isaac-2.png",
-        slug: "binding-of-isaac-2",
+        image: "/images/dungeon-crawler/card-dungeon-crawler.png",
+        slug: "dungeon-crawler",
         year: "2016",
         gradient: true
     },
@@ -79,6 +79,7 @@ export const projects =
         image: "/images/visceral/card-visceral.png",
         slug: "visceral",
         year: "2020",
+        gradient: true
     },
     {
         key:"simpli",
@@ -124,7 +125,6 @@ export const projects =
     // -------- 2021 --------
     {
         key:"grandmas-special-boy",
-        title: "Grandma's Special Boy",
         description:"A online competetive dress up game developed for mobile devices",
         image: "/images/grandmas-special-boy/card-grandmas-special-boy.png",
         slug: "grandmas-special-boy",

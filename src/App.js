@@ -19,7 +19,7 @@ import Experiments from "./components/projects/Experiments";
 import Simpli from "./components/projects/Simpli";
 import PortfolioSite from "./components/projects/PortfolioSite";
 import ShankTheWorld from "./components/projects/ShankTheWorld";
-import BindingOfISaac2 from "./components/projects/BindingOfISaac2";
+import DungeonCrawler from "./components/projects/DungeonCrawler";
 import OneInOneOut from "./components/projects/OneInOneOut";
 import NetworkingLibrary from "./components/projects/NetworkingLibrary";
 import Screeps from "./components/projects/Screeps";
@@ -28,6 +28,7 @@ import Givey from "./components/projects/Givey";
 import Nuwave from "./components/projects/Nuwave";
 import FlappyKyata from "./components/projects/FlappyKyata";
 import GrandmasSpecialBoy from "./components/projects/GrandmasSpecialBoy";
+import Visceral from "./components/projects/Visceral";
 
 // Font awesome setup
 const iconList = Object.keys(Icons)
@@ -60,7 +61,7 @@ function App() {
               <Route path="/projects/simpli" exact component={() => <Simpli />} />
               <Route path="/projects/portfolio-site" exact component={() => <PortfolioSite />} />
               <Route path="/projects/shank-the-world" exact component={() => <ShankTheWorld />} />
-              <Route path="/projects/binding-of-isaac-2" exact component={() => <BindingOfISaac2 />} />
+              <Route path="/projects/dungeon-crawler" exact component={() => <DungeonCrawler />} />
               <Route path="/projects/one-in-one-out" exact component={() => <OneInOneOut />} />
               <Route path="/projects/networking-library" exact component={() => <NetworkingLibrary />} />
               <Route path="/projects/screeps" exact component={() => <Screeps />} />
@@ -69,6 +70,7 @@ function App() {
               <Route path="/projects/nuwave" exact component={() => <Nuwave />} />
               <Route path="/projects/flappy-kyata" exact component={() => <FlappyKyata />} />
               <Route path="/projects/grandmas-special-boy" exact component={() => <GrandmasSpecialBoy />} />
+              <Route path="/projects/visceral" exact component={() => <Visceral />} />
             </Switch>
           </Row>
         </Container>

@@ -3,17 +3,17 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 
-function BindingOfISaac2() {
+function DungeonCrawler() {
     return (
         <div className="project">
             <Row>
                 <Col md={6}>
                     <ProjectTextCard>
-                        <h2>Binding of Isaac 2</h2>
+                        <h2>Dungeon Crawler</h2>
                         <h5>Status: Completed (2016)</h5>
                         <br />
                         <h3>Summary</h3>
-                        <p>'Binding of Isaac 2' is a game that was developed for a university assignment using visual arts tool 'Processing'.</p>
+                        <p>'Dungeon Crawler' is a game that was developed for a university assignment using visual arts tool 'Processing'.</p>
                     </ProjectTextCard>
                 </Col>
                 <Col md={3}>
@@ -33,17 +33,17 @@ function BindingOfISaac2() {
             </Row>
             <Row>
                 <Col md={4}>
-                    <ProjectImageCard src="/images/binding-of-isaac-2/screenshot-1.png" />
+                    <ProjectImageCard src="/images/dungeon-crawler/screenshot-1.png" />
                 </Col>
                 <Col md={4}>
-                    <ProjectImageCard src="/images/binding-of-isaac-2/screenshot-2.png" />
+                    <ProjectImageCard src="/images/dungeon-crawler/screenshot-2.png" />
                 </Col>
                 <Col>
-                    <ProjectImageCard src="/images/binding-of-isaac-2/screenshot-3.png" />
+                    <ProjectImageCard src="/images/dungeon-crawler/screenshot-3.png" />
                 </Col>
             </Row>
         </div>
     )
 }
 
-export default BindingOfISaac2
+export default DungeonCrawler
