@@ -92,12 +92,8 @@ function WhoCaresIfItsBuggy() {
 
                     {/* ------ Video Row ------ */}
                     <Row>
-                        <Col md={6}>
-                            <ProjectVideoCard src="/videos/who-cares-if-its-buggy/vid-1.mp4" type="video/mp4"/>
-                        </Col>
-                        <Col>
-                            <ProjectVideoCard src="/videos/who-cares-if-its-buggy/vid-2.mp4" type="video/mp4"/>
-                        </Col>
+                        <Col md={6}><ProjectVideoCard src="/videos/who-cares-if-its-buggy/vid-1.mp4" type="video/mp4"/></Col>
+                        <Col><ProjectVideoCard src="/videos/who-cares-if-its-buggy/vid-2.mp4" type="video/mp4"/></Col>
                     </Row>
                 </Col>
 
@@ -105,16 +101,10 @@ function WhoCaresIfItsBuggy() {
                 <Col md={3}>
 
                     <ProjectTextCard>
-                        <a target="_blank" href="https://itsnotagoodtime.itch.io/who-cares-if-its-buggy" rel="noreferrer">
-                            <h2>Play here!</h2>
-                        </a>
+                        <a target="_blank" href="https://itsnotagoodtime.itch.io/who-cares-if-its-buggy" rel="noreferrer"><h2>Play here!</h2></a>
                     </ProjectTextCard>
 
-                    {/* ------ */}
-
                     <ProjectImageCard src="/images/who-cares-if-its-buggy/card-who-cares-if-its-buggy.png" />
-
-                    {/* ------ */}
 
                     <ProjectTextCard>
                         <h2>Team Members</h2>
@@ -126,8 +116,6 @@ function WhoCaresIfItsBuggy() {
                         </ul>
                     </ProjectTextCard>
 
-                    {/* ------ */}
-                    
                     <ProjectImageCard src="/images/who-cares-if-its-buggy/banner-who-cares-if-its-buggy.png" />
                 </Col>
             </Row>

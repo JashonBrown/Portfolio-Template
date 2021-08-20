@@ -39,9 +39,7 @@ function PortfolioSite() {
                 </Col>
                 <Col>
                     <ProjectTextCard>
-                        <a target="_blank" href="https://github.com/JashonBrown/PortfolioSite" rel="noreferrer">
-                            <h2>View Repo!</h2>
-                        </a>
+                        <a target="_blank" href="https://github.com/JashonBrown/PortfolioSite" rel="noreferrer"><h2>View Repo!</h2></a>
                     </ProjectTextCard>
                     <ProjectImageCard src="/images/portfolio-site/screenshot-1.png" />
                 </Col>

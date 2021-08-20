@@ -55,6 +55,7 @@ function NetworkingLibrary() {
                         <h2>Topics Touched</h2>
                         <ul>
                             <li>Networked Interpolation</li>
+                            <li>Lag Compensation</li>
                             <li>Networked Animation</li>
                             <li>Object Authority</li>
                             <li>Reliable UDP</li>
