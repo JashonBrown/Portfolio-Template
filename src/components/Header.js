@@ -21,7 +21,6 @@ function Header() {
                     <Navbar.Collapse>
                         <Nav>
                             <Nav.Link exact as={NavLink} to="/projects" isActive={() => ['/', '/projects'].includes(pathname)} className="nav-item">Projects</Nav.Link>
-                            <Nav.Link exact as={NavLink} to="/resume" className="nav-item">Resume</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Row>
