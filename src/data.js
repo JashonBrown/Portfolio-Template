@@ -73,6 +73,14 @@ export const projects =
     },
     // -------- 2020 --------
     {
+        key:"visceral",
+        title: "Visceral",
+        description:"A multiplayer PVP game with a focus on customizable magic spells",
+        image: "/images/visceral/card-visceral.png",
+        slug: "visceral",
+        year: "2020",
+    },
+    {
         key:"simpli",
         description:"A local and central government portal developed to digitize the building consent process",
         image: "/images/simpli/card-simpli.png",
@@ -87,21 +95,21 @@ export const projects =
         year: "2020",
     },
     {
-        key:"one-in-one-out",
-        title: "One In One Out",
-        description:"A machine learning project attempting to simulate the COVID-19 grocery shopping experience in New Zealand",
-        image: "/images/one-in-one-out/card-one-in-one-out.png",
-        icon: ["fas", "shopping-cart"],
-        slug: "one-in-one-out",
-        year: "2020",
-    },
-    {
         key:"givey",
         title: "Givey",
         description:"A platform developed to assist offering and requesting charitable donations",
         image: "/images/givey/card-givey.png",
         icon: ["fas", "hand-holding-usd"],
         slug: "givey",
+        year: "2020",
+    },
+    {
+        key:"one-in-one-out",
+        title: "One In One Out",
+        description:"A machine learning project attempting to simulate the COVID-19 grocery shopping experience in New Zealand",
+        image: "/images/one-in-one-out/card-one-in-one-out.png",
+        icon: ["fas", "shopping-cart"],
+        slug: "one-in-one-out",
         year: "2020",
     },
     {
@@ -113,15 +121,15 @@ export const projects =
         year: "2020",
         gradient: true
     },
-    {
-        key:"visceral",
-        title: "Visceral",
-        description:"A multiplayer PVP game with a focus on customizable magic spells",
-        image: "/images/visceral/card-visceral.png",
-        slug: "visceral",
-        year: "2020",
-    },
     // -------- 2021 --------
+    {
+        key:"grandmas-special-boy",
+        title: "Grandma's Special Boy",
+        description:"A online competetive dress up game developed for mobile devices",
+        image: "/images/grandmas-special-boy/card-grandmas-special-boy.png",
+        slug: "grandmas-special-boy",
+        year: "2021",
+    },
     {
         key:"networking-library",
         title: "Networking Library",
@@ -131,14 +139,14 @@ export const projects =
         slug: "networking-library",
         year: "2021",
     },
-    {
-        key:"mini-monies",
-        title: "Mini Monies",
-        description:"A mobile game about breeding and raising mutants",
-        image: "/images/mini-monies/card-mini-monies.png",
-        slug: "mini-monies",
-        year: "2021",
-    },
+    // {
+    //     key:"mini-monies",
+    //     title: "Mini Monies",
+    //     description:"A mobile game about breeding and raising mutants",
+    //     image: "/images/mini-monies/card-mini-monies.png",
+    //     slug: "mini-monies",
+    //     year: "2021",
+    // },
     {
         key:"portfolio-site",
         title: "Portfolio Site",
@@ -146,14 +154,6 @@ export const projects =
         image: "/images/portfolio-site/card-portfolio-site.png",
         icon: ["fas", "address-card"],
         slug: "portfolio-site",
-        year: "2021",
-    },
-    {
-        key:"grandmas-special-boy",
-        title: "Grandma's Special Boy",
-        description:"A online competetive dress up game developed for mobile devices",
-        image: "/images/grandmas-special-boy/card-grandmas-special-boy.png",
-        slug: "grandmas-special-boy",
         year: "2021",
     },
 ];
