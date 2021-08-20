@@ -33,6 +33,7 @@ function PortfolioSite() {
                             <li>HTML</li>
                             <li>S3 (AWS)</li>
                             <li>Route 53 (AWS)</li>
+                            <li>Cloud Front (AWS)</li>
                         </ul>
                     </ProjectTextCard>
                     </Col>

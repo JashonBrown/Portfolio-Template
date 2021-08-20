@@ -73,9 +73,9 @@ function GrandmasSpecialBoy() {
                     <Row>
                         <Col md={6}>
                             <ProjectTextCard>
-                                <h2>Gatcha</h2>
-                                <p>Currently we are doing our best to create a generous gatcha system that will enhance the users experience whilst also financially sustaining the project.</p>
-                                <p>We highly respect our players experience and are keenly aware of the draw backs of a gambling based reward system but are up for the challenge of making a healthy and enjoyable gatcha system.</p>
+                                <h2>Gacha</h2>
+                                <p>Currently we are doing our best to create a generous gacha system that will enhance the users experience whilst also financially sustaining the project.</p>
+                                <p>We highly respect our players experience and are keenly aware of the draw backs of a gambling based reward system but are up for the challenge of making a healthy and enjoyable gacha system.</p>
                             </ProjectTextCard>
                         </Col>
                         <Col>
