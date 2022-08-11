@@ -54,7 +54,6 @@ function NetworkingLibrary() {
                     <ProjectTextCard>
                         <h2>Topics Touched</h2>
                         <ul>
-                            <li>Networked Interpolation</li>
                             <li>Lag Compensation</li>
                             <li>Networked Animation</li>
                             <li>Object Authority</li>
@@ -69,7 +68,7 @@ function NetworkingLibrary() {
                     <ProjectTextCard>
                         <h2>Conclusion</h2>
                         <p>
-                            As I got further and further into creating my own networking library I realized I wasn't able to work on my actual game as muchb as I wanted.
+                            As I got further and further into creating my own networking library I realized I wasn't able to work on my actual game as much as I wanted.
                             In the end I went back to working with Mirror and with my new understanding of networking, was able to quickly achieve better results than the last time. 
                         </p>
                     </ProjectTextCard>

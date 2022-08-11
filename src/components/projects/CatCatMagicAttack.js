@@ -24,7 +24,7 @@ function CatCatMagicAttack() {
                 <Col md={4}>
                     <ProjectTextCard>
                         <h2>Genre</h2>
-                        <p>The game is a 2D action RPG pulling inspiriation from games such as Pokemon, Crosscode and Undertale.</p>
+                        <p>The game is a 2D action RPG pulling inspiration from games such as Pokemon, Crosscode and Undertale.</p>
                     </ProjectTextCard>
                 </Col>
                 <Col md={4}>

@@ -20,8 +20,8 @@ function Projects() {
     });
 
     // Construct array of yearly elements
-    var content = [];
-    for(var year in project_dict)
+    let content = [];
+    for(let year in project_dict)
         content.push(<YearlyProjects year={year} projects={project_dict[year]} />);
     
     // Reverse order so they show from newest to oldest
