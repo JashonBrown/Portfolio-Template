@@ -12,23 +12,7 @@ import Header from "./components/Header";
 import Projects from "./components/pages/Projects";
 
 // Project components
-import WhoCaresIfItsBuggy from "./components/projects/WhoCaresIfItsBuggy";
-import WhyDoesNoOneLoveMe from "./components/projects/WhyDoesNoOneLoveMe";
-import ClimbPrincessClimb from "./components/projects/ClimbPrincessClimb";
-import Experiments from "./components/projects/Experiments";
-import Simpli from "./components/projects/Simpli";
-import PortfolioSite from "./components/projects/PortfolioSite";
-import ShankTheWorld from "./components/projects/ShankTheWorld";
-import DungeonCrawler from "./components/projects/DungeonCrawler";
-import OneInOneOut from "./components/projects/OneInOneOut";
-import NetworkingLibrary from "./components/projects/NetworkingLibrary";
-import Screeps from "./components/projects/Screeps";
-import CatCatMagicAttack from "./components/projects/CatCatMagicAttack";
-import Givey from "./components/projects/Givey";
-import Nuwave from "./components/projects/Nuwave";
-import FlappyKyata from "./components/projects/FlappyKyata";
-import GrandmasSpecialBoy from "./components/projects/GrandmasSpecialBoy";
-import Visceral from "./components/projects/Visceral";
+import Example from "./components/projects/Example";
 
 // Font awesome setup
 const iconList = Object.keys(Icons)
@@ -54,23 +38,7 @@ function App() {
               <Route path="/projects" exact component={() => <Projects />} />
 
               {/* Projects */}
-              <Route path="/projects/who-cares-if-its-buggy" exact component={() => <WhoCaresIfItsBuggy />} />
-              <Route path="/projects/experiments" exact component={() => <Experiments />} />
-              <Route path="/projects/why-does-no-one-love-me" exact component={() => <WhyDoesNoOneLoveMe />} />
-              <Route path="/projects/climb-princess-climb" exact component={() => <ClimbPrincessClimb />} />
-              <Route path="/projects/simpli" exact component={() => <Simpli />} />
-              <Route path="/projects/portfolio-site" exact component={() => <PortfolioSite />} />
-              <Route path="/projects/shank-the-world" exact component={() => <ShankTheWorld />} />
-              <Route path="/projects/dungeon-crawler" exact component={() => <DungeonCrawler />} />
-              <Route path="/projects/one-in-one-out" exact component={() => <OneInOneOut />} />
-              <Route path="/projects/networking-library" exact component={() => <NetworkingLibrary />} />
-              <Route path="/projects/screeps" exact component={() => <Screeps />} />
-              <Route path="/projects/cat-cat-magic-attack" exact component={() => <CatCatMagicAttack />} />
-              <Route path="/projects/givey" exact component={() => <Givey />} />
-              <Route path="/projects/nuwave" exact component={() => <Nuwave />} />
-              <Route path="/projects/flappy-kyata" exact component={() => <FlappyKyata />} />
-              <Route path="/projects/grandmas-special-boy" exact component={() => <GrandmasSpecialBoy />} />
-              <Route path="/projects/visceral" exact component={() => <Visceral />} />
+              <Route path="/projects/example" exact component={() => <Example />} />
             </Switch>
           </Row>
         </Container>
