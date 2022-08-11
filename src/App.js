@@ -12,7 +12,7 @@ import Header from "./components/Header";
 import Projects from "./components/pages/Projects";
 
 // Project components
-import Example from "./components/projects/Example";
+import ExampleProject from "./components/projects/ExampleProject";
 
 // Font awesome setup
 const iconList = Object.keys(Icons)
@@ -21,9 +21,8 @@ const iconList = Object.keys(Icons)
 
 library.add(...iconList);
 
-function App() {
+export default function App() {
   return (
-    <>
     <Router>
       <Container fluid className="main">
 
@@ -38,15 +37,12 @@ function App() {
               <Route path="/projects" exact component={() => <Projects />} />
 
               {/* Projects */}
-              <Route path="/projects/example" exact component={() => <Example />} />
+              <Route path="/projects/example" exact component={() => <ExampleProject />} />
             </Switch>
           </Row>
         </Container>
 
       </Container>
     </Router>
-    </>
   );
 }
-
-export default App;

@@ -2,7 +2,7 @@ import '../styles/Header.scss';
 import { useLocation, NavLink } from 'react-router-dom';
 import {Navbar, Nav, Row} from 'react-bootstrap';
 
-function Header() {
+export default function Header() {
     const { pathname } = useLocation();
 
     return (
@@ -11,7 +11,7 @@ function Header() {
                 <Row className="top-row">
                     <Navbar.Brand>
                         <div className="title">
-                            <Nav.Link exact as={NavLink} to="/">Your Name</Nav.Link>
+                            <Nav.Link exact as={NavLink} to="/">TODO</Nav.Link>
                         </div>
                     </Navbar.Brand>
                 </Row>
@@ -28,5 +28,3 @@ function Header() {
         </div>
     )
 }
-
-export default Header

@@ -1,7 +1,7 @@
 import '../styles/ProjectImageCard.scss';
 import Card from 'react-bootstrap/Card';
 
-function ProjectImageCard(props) {
+export default function ProjectImageCard(props) {
     return (
         <div className="project-image-card">
             <Card className={props.className && props.className}>
@@ -11,5 +11,3 @@ function ProjectImageCard(props) {
         </div>
     )
 }
-
-export default ProjectImageCard

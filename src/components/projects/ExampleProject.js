@@ -4,7 +4,7 @@ import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
 
-function Example() {
+export default function ExampleProject() {
     return (
         <div className="project">
             <Row>
@@ -133,5 +133,3 @@ function Example() {
         </div>
     )
 }
-
-export default Example

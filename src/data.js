@@ -2,35 +2,35 @@
 
 export const projects = 
 [
-    // -------- 2019 --------
+    // -------- Featured --------
     {
-        key:"example",
+        key:"example1",
         description:"example-project",
         image: "/images/example/card-example.png",
         slug: "example",
-        year: "2019",
+        group: "Featured",
     },
     // -------- 2020 --------
     {
-        key:"example",
+        key:"example2",
         description:"example-project",
         image: "/images/example/card-example.png",
         slug: "example",
-        year: "2020",
+        group: "2020",
     },
     // -------- 2021 --------
     {
-        key:"example",
+        key:"example3",
         description:"example-project",
         image: "/images/example/card-example.png",
         slug: "example",
-        year: "2021",
+        group: "2021",
     },
     {
-        key:"example",
+        key:"example4",
         description:"example-project",
         image: "/images/example/card-example.png",
         slug: "example",
-        year: "2021",
+        group: "2021",
     },
 ];
