@@ -22,7 +22,11 @@ export default function Projects() {
     // Construct array of yearly elements
     let content = [];
     for (let group in project_dict)
-        content.push(<GroupedProjects group={group} projects={project_dict[group]} />);
+        content.push(
+            <div key={group}> {/* need to wrap in div with key to stop react error */}
+                <GroupedProjects group={group} projects={project_dict[group]} />
+            </div>
+        );
     
     // Reverse order so they show from newest to oldest
     content = content.reverse();

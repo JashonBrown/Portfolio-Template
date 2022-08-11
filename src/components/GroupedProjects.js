@@ -12,7 +12,7 @@ export default function GroupedProjects(props) {
             <div className="project-cards">
                 <Row>
                     {props.projects.map((project) => (
-                        <Col md={6} lg={4} xl={3}>
+                        <Col md={6} lg={4} xl={3} key={project.key}> {/* key needs to be added to stop react error */}
                             <ProjectFlipCard {...project}/> {/* passes through all of 'project' details */}
                         </Col>
                     ))}
