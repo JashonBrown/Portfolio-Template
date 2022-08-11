@@ -34,7 +34,7 @@ Attributes
 - image: relative link to the image to display on the card (eg. /images/example/example.png)  
 - slug: slug appended to the URL for the card (eg. 'example' will result in the link being `/projects/example`)  
 - group: section to group this project under on the 'projects' page  
-- (optional) icon: Font awesome icon to put on card image (See [Font Awesome](https://fontawesome.com/docs/apis/javascript/import-icons) for more)
+- (optional) icon: List of font awesome icon to put on card image (eg. `["fas", "address-card"]`) (See [Font Awesome](https://fontawesome.com/docs/apis/javascript/import-icons) for more)
 - (optional) gradiant: if populated will add a gradiant to the card image  
 
 # Styling
