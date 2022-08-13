@@ -3,6 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
+import ProjectWebGLCard from '../ProjectWebGLCard';
 
 export default function ExampleProject() {
     return (
@@ -14,14 +15,7 @@ export default function ExampleProject() {
                     {/* ------ Row 1 ------ */}
                     <Row>
                         <Col>
-                            <ProjectTextCard>
-                                <h2>Lorem Ipsum</h2>
-                                <h5>Status: Lorem Ipsum</h5>
-                                <br />
-                                <h3>Summary</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </ProjectTextCard>
+                            <ProjectWebGLCard url='https://itch.io/embed-upload/6326164'/>
                         </Col>
                     </Row>
 
