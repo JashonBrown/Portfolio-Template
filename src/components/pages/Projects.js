@@ -1,10 +1,11 @@
 import '../../styles/Projects.scss';
-import { projects } from "../../data";
+import { projects, groups } from "../../data";
 import GroupedProjects from '../GroupedProjects';
 
 export default function Projects() {
 
     const project_dict = {};
+    const group_dict = {};
 
     projects.map(project => 
     {
@@ -19,7 +20,13 @@ export default function Projects() {
         return {};
     });
 
-    // Construct array of yearly elements
+    // Construct array of category elements
+    groups.map(group => 
+    {
+        group_dict[group.key] = group.prio;
+        return {};
+    })
+
     let content = [];
     for (let group in project_dict)
         content.push(
@@ -28,8 +35,8 @@ export default function Projects() {
             </div>
         );
     
-    // Reverse order so they show from newest to oldest
-    content = content.reverse();
+    // Sort by prio
+    content = content.sort((a, b) => group_dict[a.key] - group_dict[b.key]).reverse();
 
     return (<div className="projects">{content}</div>)
 }

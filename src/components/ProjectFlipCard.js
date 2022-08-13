@@ -29,7 +29,7 @@ export default function ProjectFlipCard(project) {
     return (
         <NavLink exact to={"/projects/" + project.slug} className={classes}>
             <div className="project-card-body">
-                <div className="project-card-front">
+                <div className="project-card-front" style={{backgroundColor:project.color}}>
                     {content}
                 </div>
                 <div className="project-card-back">
