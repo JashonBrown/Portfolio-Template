@@ -4,6 +4,8 @@ import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
 import ProjectWebGLCard from '../ProjectWebGLCard';
+import ProjectYoutubeEmbedCard from '../ProjectYoutubeEmbedCard';
+import ItchDownload from '../ItchDownload';
 
 export default function ExampleProject() {
     return (
@@ -16,6 +18,7 @@ export default function ExampleProject() {
                     <Row>
                         <Col>
                             <ProjectWebGLCard url='https://itch.io/embed-upload/6326164'/>
+                            <ProjectYoutubeEmbedCard src='hrdFKRtlHqs'/>
                         </Col>
                     </Row>
 
@@ -99,6 +102,8 @@ export default function ExampleProject() {
                 <Col md={3}>example
 
                     <ProjectImageCard src="/images/example/card-example.png" />
+
+                    <ItchDownload src='1187259' download='https://soggykees.itch.io/stick-royale' title='Stick Royale by Kees Tucker' />
 
                     <ProjectTextCard>
                         <h2>Team Members</h2>
