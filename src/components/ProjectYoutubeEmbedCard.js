@@ -1,4 +1,4 @@
-import '../styles/ProjectVideoCard.scss';
+import '../styles/ProjectYoutubeEmbedCard.scss';
 
 export default function ProjectYoutubeEmbedCard(props) {
     return (
