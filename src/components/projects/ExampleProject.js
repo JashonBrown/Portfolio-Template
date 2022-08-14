@@ -4,6 +4,7 @@ import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
 import ProjectWebGLCard from '../ProjectWebGLCard';
+import ProjectYoutubeEmbedCard from '../ProjectYoutubeEmbedCard';
 
 export default function ExampleProject() {
     return (
@@ -16,6 +17,7 @@ export default function ExampleProject() {
                     <Row>
                         <Col>
                             <ProjectWebGLCard url='https://itch.io/embed-upload/6326164'/>
+                            <ProjectYoutubeEmbedCard src='hrdFKRtlHqs'/>
                         </Col>
                     </Row>
 
