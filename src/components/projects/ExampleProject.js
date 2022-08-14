@@ -5,6 +5,7 @@ import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
 import ProjectWebGLCard from '../ProjectWebGLCard';
 import ProjectYoutubeEmbedCard from '../ProjectYoutubeEmbedCard';
+import ItchDownload from '../ItchDownload';
 
 export default function ExampleProject() {
     return (
@@ -101,6 +102,8 @@ export default function ExampleProject() {
                 <Col md={3}>example
 
                     <ProjectImageCard src="/images/example/card-example.png" />
+
+                    <ItchDownload src='1187259' download='https://soggykees.itch.io/stick-royale' title='Stick Royale by Kees Tucker' />
 
                     <ProjectTextCard>
                         <h2>Team Members</h2>
