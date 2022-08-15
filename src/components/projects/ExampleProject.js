@@ -19,6 +19,7 @@ export default function ExampleProject() {
                         <Col>
                             <ProjectWebGLCard url='https://itch.io/embed-upload/6326164'/>
                             <ProjectYoutubeEmbedCard src='hrdFKRtlHqs'/>
+                            <ItchDownload src='1187259' download='https://soggykees.itch.io/stick-royale' title='Stick Royale by Kees Tucker' />
                         </Col>
                     </Row>
 
@@ -102,8 +103,6 @@ export default function ExampleProject() {
                 <Col md={3}>example
 
                     <ProjectImageCard src="/images/example/card-example.png" />
-
-                    <ItchDownload src='1187259' download='https://soggykees.itch.io/stick-royale' title='Stick Royale by Kees Tucker' />
 
                     <ProjectTextCard>
                         <h2>Team Members</h2>
