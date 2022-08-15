@@ -7,7 +7,7 @@
 From your terminal run `npm start` to locally start the project
 
 # Deployment
-1. Execute `npm build` within the project directory from your terminal
+1. Execute `npm run build` within the project directory from your terminal
 2. TODO: do rest of steps xd (do something with newly generated 'builds' directory)
 
 # Customization
@@ -33,9 +33,15 @@ Attributes
 - description: info shown on the back of the card  
 - image: relative link to the image to display on the card (eg. /images/example/example.png)  
 - slug: slug appended to the URL for the card (eg. 'example' will result in the link being `/projects/example`)  
-- group: section to group this project under on the 'projects' page  
+- group: section to group this project under on the 'projects' page 
+- color: adds a background color to the cards 
 - (optional) icon: List of font awesome icon to put on card image (eg. `["fas", "address-card"]`) (See [Font Awesome](https://fontawesome.com/docs/apis/javascript/import-icons) for more)
 - (optional) gradiant: if populated will add a gradiant to the card image  
+
+# Group data
+This lets you specify ordering of groups on the projects page.
+- key: must match group name from the project card data
+- prio: higher numbers make the group appear higher on the page
 
 # Styling
 - Styles are stored in the `src/styles` directory. Check out [SASS](https://sass-lang.com/documentation/style-rules)  
@@ -58,8 +64,31 @@ Wrapper for images used in project components
 Props:
 - className: class names to add to component
 
+### ItchDownload
+Wrapper for itch download used in project components
+Props:
+- src: the id number of your project, it's the last part of the url when editing an itch project
+- download: the url of the page you want the button to take the user too. recommend the project page of the project
+- title: {Name of Game} by {Authors}
+
+### ProjectWebGLCard
+Wrapper for images used in project components
+Props:
+- url: the "Direct Link" found on the embed game/distribute page of your itch.io project
+- aspectRatio (optional): let's you specify a custom aspect ratio for your game eg "16 / 10"
+- width (optional): if your project was not exported as 1920 * 1080 then this should be used to specify a custom size. Make sure to set the correct size on the itch website as well
+- height (height): if your project was not exported as 1920 * 1080 then this should be used to specify a custom size. Make sure to set the correct size on the itch website as well. Note that 50 pixels should be added onto the height so if your unitu project had a height of 1080, it should be set to 1130 on itch and here as this accounts for the various banners displayed by itch and unity.
+
+### ProjectYoutubeEmbedCard
+Wrapper for images used in project components
+Props:
+- src: the youtube id of your video, visible at the end of the url when on the youtube website
+- title (optional): caption to appear underneath the video
+
 ### GroupedProjects
 Component that groups project flip card components 
+
+###
 
 # Project Structure
 public: contains all media resources (eg. images and videos)  
